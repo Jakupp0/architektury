@@ -1,0 +1,1 @@
+{"hosting":{"public":"dist/kolej/browser","ignore":["firebase.json","**/.*","**/node_modules/**"],"rewrites":[{"source":"**","destination":"/index.html"}],"headers":[{"source":"/data/**","headers":[{"key":"Cache-Control","value":"public,max-age=300"}]}]}}
