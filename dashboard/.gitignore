@@ -1,0 +1,30 @@
+# Dependencies, build output and caches
+node_modules/
+dist/
+.angular/
+.firebase/
+
+# Local logs, validation reports and screenshots
+*.log
+firebase_deployment.json
+browser_validation.json
+preview.png
+published-preview.png
+
+# Local environment and authentication files (never commit real credentials)
+.env
+.env.*
+!.env.example
+!.env.*.example
+.npmrc
+application_default_credentials.json
+service-account*.json
+serviceAccount*.json
+*-firebase-adminsdk-*.json
+credentials*.json
+*.pem
+*.key
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
